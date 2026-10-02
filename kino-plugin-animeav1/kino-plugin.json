@@ -1,0 +1,23 @@
+{
+  "id": "kino-animeav1",
+  "name": "AnimeAV1",
+  "version": "0.1.0",
+  "apiVersion": 4,
+  "entry": "plugin.js",
+  "description": "Anime en español (sub/dub) desde animeav1.com: busca títulos, lista episodios y reproduce desde UPNShare, Voe y MP4Upload.",
+  "hosts": [
+    "animeav1.com",
+    "*.animeav1.com",
+    "animeav1.uns.bio",
+    "voe.sx",
+    "jeremyparticipantanything.com",
+    "mp4upload.com",
+    "*.mp4upload.com"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "search",
+    "episodes",
+    "resolve"
+  ]
+}
